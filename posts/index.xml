@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on zaragoto&#39;s blog</title>
-    <link>http://example.org/posts/</link>
+    <link>https://zaragoto322.github.io/posts/</link>
     <description>Recent content in Posts on zaragoto&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 28 Apr 2021 20:46:52 +0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Apr 2021 21:30:43 +0800</lastBuildDate><atom:link href="https://zaragoto322.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一个加法运算符的例子</title>
+      <link>https://zaragoto322.github.io/posts/%E4%B8%80%E4%B8%AA%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E4%BE%8B%E5%AD%90/</link>
+      <pubDate>Wed, 28 Apr 2021 21:30:43 +0800</pubDate>
+      
+      <guid>https://zaragoto322.github.io/posts/%E4%B8%80%E4%B8%AA%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E4%BE%8B%E5%AD%90/</guid>
+      <description>对于加法运算符，在应用的过程中有两个例子，如下所示
+  let a = 1 console.log( a+++a )
+  let a = 1 console.log( a+a++ )
+  在例子1中会输出的值为3；在例子2中会输出的值是2
+因为在a+++a的执行过程中，实现了a=a++的过程，使得a=2。在（a++）+a的过程中，后面的a的值使用了临时内存里的a的值变成了2，整个过程变成了：（1++）+2=3
+在a+a++的过程中，实际上就是a+a，计算完之后a再自增1，故值为2</description>
+    </item>
+    
     <item>
       <title>博客开通了~</title>
-      <link>http://example.org/posts/%E5%8D%9A%E5%AE%A2%E5%BC%80%E9%80%9A%E4%BA%86~/</link>
+      <link>https://zaragoto322.github.io/posts/%E5%8D%9A%E5%AE%A2%E5%BC%80%E9%80%9A%E4%BA%86~/</link>
       <pubDate>Wed, 28 Apr 2021 20:46:52 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E5%8D%9A%E5%AE%A2%E5%BC%80%E9%80%9A%E4%BA%86~/</guid>
+      <guid>https://zaragoto322.github.io/posts/%E5%8D%9A%E5%AE%A2%E5%BC%80%E9%80%9A%E4%BA%86~/</guid>
       <description>大家好~ 我的博客开通了，希望能写出一些好内容</description>
     </item>
     
