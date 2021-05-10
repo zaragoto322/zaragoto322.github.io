@@ -6,7 +6,16 @@
     <description>Recent content in Posts on zaragoto&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 28 Apr 2021 21:30:43 +0800</lastBuildDate><atom:link href="https://zaragoto322.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 May 2021 16:57:55 +0800</lastBuildDate><atom:link href="https://zaragoto322.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Js的继承</title>
+      <link>https://zaragoto322.github.io/posts/js%E7%9A%84%E7%BB%A7%E6%89%BF/</link>
+      <pubDate>Mon, 10 May 2021 16:57:55 +0800</pubDate>
+      
+      <guid>https://zaragoto322.github.io/posts/js%E7%9A%84%E7%BB%A7%E6%89%BF/</guid>
+      <description>转载一篇博客，关于js的6种继承方式 https://www.cnblogs.com/ranyonsue/p/11201730.html</description>
+    </item>
+    
     <item>
       <title>一个加法运算符的例子</title>
       <link>https://zaragoto322.github.io/posts/%E4%B8%80%E4%B8%AA%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E4%BE%8B%E5%AD%90/</link>
