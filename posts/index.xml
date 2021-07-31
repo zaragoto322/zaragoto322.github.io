@@ -6,7 +6,19 @@
     <description>Recent content in Posts on zaragoto&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 24 Jul 2021 22:47:03 +0800</lastBuildDate><atom:link href="https://zaragoto322.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jul 2021 16:36:39 +0800</lastBuildDate><atom:link href="https://zaragoto322.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>浅谈Vue中的.sync修饰符</title>
+      <link>https://zaragoto322.github.io/posts/%E6%B5%85%E8%B0%88vue%E4%B8%AD%E7%9A%84.sync%E4%BF%AE%E9%A5%B0%E7%AC%A6/</link>
+      <pubDate>Sat, 31 Jul 2021 16:36:39 +0800</pubDate>
+      
+      <guid>https://zaragoto322.github.io/posts/%E6%B5%85%E8%B0%88vue%E4%B8%AD%E7%9A%84.sync%E4%BF%AE%E9%A5%B0%E7%AC%A6/</guid>
+      <description>.sync的使用场合 在有些情况下，我们可能需要对一个 prop 进行“双向绑定”。不幸的是，真正的双向绑定会带来维护上的问题，因为子组件可以变更父组件，且在父组件和子组件两侧都没有明显的变更来源。
+所以，在这种情况下，我们需要这样的一个“双向绑定”： 在绑定的父子组件修改数据时，父组件能直接修改绑定的数据，而子组件需要通知到父组件，让父组件进行修改。这就是.sync的应用场景
+.sync的用法 &amp;gt; .sync的实现需要借助于.$emit这个API，这个API会触发当前实例上的事件，并把附加参数传给监听器回调  ` //父组件App.vue `
+` //子组件Child.vue `</description>
+    </item>
+    
     <item>
       <title>Vue的两个版本</title>
       <link>https://zaragoto322.github.io/posts/vue%E7%9A%84%E4%B8%A4%E4%B8%AA%E7%89%88%E6%9C%AC/</link>

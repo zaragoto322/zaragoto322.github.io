@@ -132,6 +132,33 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="https://zaragoto322.github.io/posts/%E6%B5%85%E8%B0%88vue%E4%B8%AD%E7%9A%84.sync%E4%BF%AE%E9%A5%B0%E7%AC%A6/" class="color-inherit dim link">
+            浅谈Vue中的.sync修饰符
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          .sync的使用场合 在有些情况下，我们可能需要对一个 prop 进行“双向绑定”。不幸的是，真正的双向绑定会带来维护上的问题，因为子组件可以变更父组件，且在父组件和子组件两侧都没有明显的变更来源。
+所以，在这种情况下，我们需要这样的一个“双向绑定”： 在绑定的父子组件修改数据时，父组件能直接修改绑定的数据，而子组件需要通知到父组件，让父组件进行修改。这就是.sync的应用场景
+.sync的用法 &gt; .sync的实现需要借助于.$emit这个API，这个API会触发当前实例上的事件，并把附加参数传给监听器回调  ` //父组件App.vue `
+` //子组件Child.vue `
+        </div>
+          <a href="https://zaragoto322.github.io/posts/%E6%B5%85%E8%B0%88vue%E4%B8%AD%E7%9A%84.sync%E4%BF%AE%E9%A5%B0%E7%AC%A6/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="https://zaragoto322.github.io/posts/vue%E7%9A%84%E4%B8%A4%E4%B8%AA%E7%89%88%E6%9C%AC/" class="color-inherit dim link">
             Vue的两个版本
             </a>
@@ -172,41 +199,18 @@
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://zaragoto322.github.io/posts/%E4%B8%80%E4%B8%AA%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E4%BE%8B%E5%AD%90/" class="color-inherit dim link">
-            一个加法运算符的例子
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          对于加法运算符，在应用的过程中有两个例子，如下所示
-  let a = 1 console.log( a+++a )
-  let a = 1 console.log( a+a++ )
-  在例子1中会输出的值为3；在例子2中会输出的值是2
-因为在a+++a的执行过程中，实现了a=a++的过程，使得a=2。在（a++）+a的过程中，后面的a的值使用了临时内存里的a的值变成了2，整个过程变成了：（1++）+2=3
-在a+a++的过程中，实际上就是a+a，计算完之后a再自增1，故值为2
-        </div>
-          <a href="https://zaragoto322.github.io/posts/%E4%B8%80%E4%B8%AA%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E4%BE%8B%E5%AD%90/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="https://zaragoto322.github.io/posts/%E4%B8%80%E4%B8%AA%E5%8A%A0%E6%B3%95%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E4%BE%8B%E5%AD%90/" class="link black dim">
+              一个加法运算符的例子
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="https://zaragoto322.github.io/posts/%E5%8D%9A%E5%AE%A2%E5%BC%80%E9%80%9A%E4%BA%86~/" class="link black dim">
